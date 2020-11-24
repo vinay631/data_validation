@@ -1,0 +1,16 @@
+schema:
+  name: some_schema
+  columns:
+    - name: latitude
+      description: Latitude goes here
+      default_value: 90
+      validator: validate_latitude
+    - name: longitude
+      description: "Longitude goes here"
+      default_value: 90
+      validator: validate_longitude
+    - name: zipcode
+      description: "Zip code of something"
+      default_value: None
+      validator: validate_zipcode
+

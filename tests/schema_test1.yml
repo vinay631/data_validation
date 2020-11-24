@@ -1,0 +1,8 @@
+schema:
+  name: some_schema
+  columns:
+    - name: latitude
+      description: Latitude goes here
+      default_value: 90
+      validator: validate_latitude
+
